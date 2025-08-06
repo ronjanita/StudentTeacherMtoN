@@ -1,6 +1,5 @@
-﻿namespace StudentTeacherMtoNAPI.Models
+﻿namespace StudentTeacherMtoNAPI.Models;
+
+public class Student
 {
-    public class StudenTeacher
-    {
-    }
 }
