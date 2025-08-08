@@ -9,6 +9,8 @@ namespace StudentTeacherMtoNAPI.Helper
         public MappingProfiles()
         {
             CreateMap<Student, StudentDTO>().ReverseMap();
+            CreateMap<Student, StudentAddDTO>().ReverseMap();
+            CreateMap<Student, StudentUpdateDTO>().ReverseMap();
         }
     }
 }

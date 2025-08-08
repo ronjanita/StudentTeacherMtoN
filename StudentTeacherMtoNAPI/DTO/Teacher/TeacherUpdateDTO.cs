@@ -1,6 +1,6 @@
 ﻿namespace StudentTeacherMtoNAPI.DTO.Teacher
 {
-    public class TeacherUpdateDTO
+    public class TeacherUpdateDTO : TeacherDTO
     {
     }
 }
