@@ -10,5 +10,6 @@ namespace StudentTeacherMtoNAPI.Interface
         Task<ICollection<Student>> GetAllStudents();
         Task<Student> AddStudent(Student newStudent);
         Task<Student> GetStudentById(Guid Id);
+        Task<Student> UpdateStudent(StudentDTO updatedStudentInfo, Guid Id);
     }
 }

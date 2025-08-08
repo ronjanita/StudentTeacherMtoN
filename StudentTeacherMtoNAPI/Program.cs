@@ -14,7 +14,7 @@ builder.Services.AddAutoMapper(cfg =>
 {
     cfg.AddProfile<MappingProfiles>();
 });
-builder.Services.AddScoped<IStudentTeacherRepository, StudentTeacherRepository>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options => {

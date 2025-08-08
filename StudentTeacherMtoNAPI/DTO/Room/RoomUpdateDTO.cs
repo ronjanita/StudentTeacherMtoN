@@ -1,6 +1,6 @@
 ﻿namespace StudentTeacherMtoNAPI.DTO.Room
 {
-    public class RoomUpdateDTO : RoomDTO
+    public class RoomUpdateDTO : RoomDTO 
     {
     }
 }
