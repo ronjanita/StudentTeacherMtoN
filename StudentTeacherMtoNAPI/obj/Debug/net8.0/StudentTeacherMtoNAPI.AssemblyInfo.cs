@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentTeacherMtoNAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8076bc20163cb4b04d286e433c9e3b29a401ce95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c076999966524f6f303d870633a8482d8eb9d47d")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentTeacherMtoNAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentTeacherMtoNAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
