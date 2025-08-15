@@ -9,6 +9,8 @@ public class DataContext : DbContext
     public DbSet<Teacher> Teachers { get; set; }
     public DbSet<Room> Rooms { get; set; } 
     public DbSet<Lesson> Lessons { get; set; }
+    public DbSet<Enrollement> Enrollements { get; set; }
+    public DbSet<Assignement> Assignements { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Enrollement>()

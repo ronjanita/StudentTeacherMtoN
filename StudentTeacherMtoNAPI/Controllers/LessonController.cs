@@ -5,6 +5,7 @@ using StudentTeacherMtoNAPI.DTO.Lesson;
 using StudentTeacherMtoNAPI.DTO.Student;
 using StudentTeacherMtoNAPI.Interface;
 using StudentTeacherMtoNAPI.Models;
+using StudentTeacherMtoNAPI.Repository;
 
 namespace StudentTeacherMtoNAPI.Controllers
 {
